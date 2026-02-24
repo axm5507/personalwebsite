@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <div id="particles-background"></div>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Portfolio</a>
+    <div class="nav-links">
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <!-- Resume link is set in config.js -->
+      <a href="#" class="nav-resume" target="_blank" rel="noopener">Resume</a>
+    </div>
+  </nav>
+
+  <main class="main">
+    <p class="intro-line" id="intro-line" aria-live="polite"></p>
+
+    <div class="home-row">
+      <section class="magnet-section" aria-hidden="true">
+        <div class="magnet-lines" id="magnet-lines"></div>
+      </section>
+      <section class="about" aria-label="About me">
+        <h1 class="about-title" id="about-title">About me</h1>
+        <!-- Edit the content below to write about yourself -->
+        <div class="about-content" id="about-content">
+          <p>My name is Arjun. I am a student at Texas A&M University, studying Computer Science with a strong interest in algorithmic programming, machine learning, and website development.</p>
+          <p>I have worked with various programming technologies and frameworks, and am aiming to create impactful, user-friendly products that solve real-world problems.</p>
+          <p>I am a project member with the Aggie Data Science Club and Aggie Coding Club, building cool stuff soon to come.</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="tech-box" aria-label="Technologies">
+      <h2 class="tech-box-title">Technologies</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>Python</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>Java</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>C++</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>SQL</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>React</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>Next.js</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="" width="40" height="40" loading="lazy">
+          <span>PyTorch</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+  <script type="module" src="particles.js"></script>
+</body>
+</html>
