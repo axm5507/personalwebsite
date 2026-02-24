@@ -1,33 +1,32 @@
 # Personal website
 
-A dark, minimal personal site with a cursor proximity effect on the main page.
+This is my personal website that I made using reactbits for special effects.
 
 ## Quick setup
 
 ### 1. About text (main page)
 
-Edit **index.html**: find the section with class `about-content` and replace the placeholder paragraphs with your own. Each `<p>` with class `proximity-text` will get the proximity effect. You can add or remove paragraphs as you like.
+This is the main part of the website where most of the special effects are. I added a vector field for the user to play around with while reading and some special effects on the text.
+
+The bottom part contains some frameworks that I'm familiar with.
 
 ### 2. Resume link
 
-Edit **config.js** and set `window.RESUME_LINK` to your resume URL or path, for example:
+I used **config.js** and set `window.RESUME_LINK` to my resume PDF.
 
-- `"https://yoursite.com/resume.pdf"`
-- `"resume.pdf"` (if the PDF is in the same folder as the site)
-
-The Resume button in the nav will use this link on every page.
+The resume button will navigate to the PDF when clicked.
 
 ### 3. Contact page
 
-Edit **contact.html** and update the email and social links in the `contact-list` with your real email, LinkedIn, GitHub, etc.
+The buttons contain links to my contact information, including email, github, and linkedin.
 
 ## Pages
 
 - **index.html** — Home (about + proximity effect)
-- **projects.html** — Projects (empty; add your projects later)
-- **contact.html** — Contact links
+- **projects.html** — Projects (empty, ill add them later)
+- **contact.html** — My contact links
 
-## Run locally
+## If you want to run it locally
 
 Open **index.html** in a browser, or use a simple static server:
 
